@@ -18,4 +18,15 @@ Esta aplicación permite a los usuarios agregar nombres de amigos a una lista y 
 
 1. Escribe el nombre de tus amigos en el campo de texto.  
 2. Haz clic en **Añadir** para agregarlos a la lista.  
-3. Cuando quieras sortear, haz
+3. Cuando quieras sortear, haz clic en **Sortear Amigo**.  
+4. El resultado se mostrará en la sección de resultados debajo de la lista.
+
+---
+
+## **Tecnologías usadas**
+
+- HTML
+- CSS
+- JavaScript
+
+
