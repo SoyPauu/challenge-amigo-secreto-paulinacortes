@@ -38,4 +38,23 @@ function mostrarAmigos() {
     }
 }
 
+// Función para sortear amigos 
+
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("No hay amigos para sortear.");
+        return;
+    }
+
+    // Generar índice aleatorio
+    const indice = Math.floor(Math.random() * amigos.length);
+
+    // Obtener el nombre
+    const amigoSorteado = amigos[indice];
+
+    // Mostrar resultado
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = `🎉 El amigo secreto es: <strong>${amigoSorteado}</strong> 🎉`;
+}
+
 
